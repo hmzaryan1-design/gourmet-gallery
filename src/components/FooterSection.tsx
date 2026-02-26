@@ -12,7 +12,7 @@ const FooterSection = () => {
     name: "",
     email: "",
     event: "",
-    message: "",
+    message: ""
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -30,8 +30,8 @@ const FooterSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="mb-16 text-center"
-        >
+          className="mb-16 text-center">
+
           <span className="font-body text-xs tracking-[0.3em] text-accent">
             {t.label[language]}
           </span>
@@ -49,8 +49,8 @@ const FooterSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.3 }}
           onSubmit={handleSubmit}
-          className="mx-auto max-w-xl space-y-6"
-        >
+          className="mx-auto max-w-xl space-y-6">
+
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <input
               type="text"
@@ -58,40 +58,40 @@ const FooterSection = () => {
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               required
-              className="border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none"
-            />
+              className="border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none" />
+
             <input
               type="email"
               placeholder={t.emailPlaceholder[language]}
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               required
-              className="border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none"
-            />
+              className="border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none" />
+
           </div>
           <select
             value={formData.event}
             onChange={(e) => setFormData({ ...formData, event: e.target.value })}
             required
-            className="w-full border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground/40 focus:border-accent focus:outline-none [&>option]:bg-foreground [&>option]:text-primary-foreground"
-          >
+            className="w-full border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground/40 focus:border-accent focus:outline-none [&>option]:bg-foreground [&>option]:text-primary-foreground">
+
             <option value="">{t.eventLabel[language]}</option>
-            {t.eventOptions[language].map((opt, i) => (
-              <option key={i} value={eventValues[i]}>{opt}</option>
-            ))}
+            {t.eventOptions[language].map((opt, i) =>
+            <option key={i} value={eventValues[i]}>{opt}</option>
+            )}
           </select>
           <textarea
             placeholder={t.messagePlaceholder[language]}
             rows={4}
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-            className="w-full resize-none border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none"
-          />
+            className="w-full resize-none border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none" />
+
           <div className="text-center">
             <button
               type="submit"
-              className="mt-4 border border-accent px-12 py-4 font-body text-xs tracking-[0.25em] text-primary-foreground transition-all duration-300 hover:bg-accent hover:text-accent-foreground"
-            >
+              className="mt-4 border border-accent px-12 py-4 font-body text-xs tracking-[0.25em] text-primary-foreground transition-all duration-300 hover:bg-accent hover:text-accent-foreground">
+
               {t.submitButton[language]}
             </button>
           </div>
@@ -112,9 +112,9 @@ const FooterSection = () => {
             <a href="#" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
               Instagram
             </a>
-            <a href="#" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
-              Pinterest
-            </a>
+            
+
+
             <a href="#" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
               LinkedIn
             </a>
@@ -124,8 +124,8 @@ const FooterSection = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default FooterSection;
