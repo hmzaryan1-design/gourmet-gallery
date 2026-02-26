@@ -1,9 +1,13 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import { useLanguage } from "@/i18n/LanguageContext";
+import { translations } from "@/i18n/translations";
 
 const FooterSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const { language } = useLanguage();
+  const t = translations.footer;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -13,10 +17,11 @@ const FooterSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Form handling would go here
-    alert("Merci pour votre demande. Nous vous recontactons sous 24h.");
+    alert(t.successMessage[language]);
     setFormData({ name: "", email: "", event: "", message: "" });
   };
+
+  const eventValues = ["mariage", "bapteme", "corporate", "prive"];
 
   return (
     <footer id="contact" className="bg-foreground px-6 py-28 md:px-16 lg:py-36">
@@ -28,15 +33,14 @@ const FooterSection = () => {
           className="mb-16 text-center"
         >
           <span className="font-body text-xs tracking-[0.3em] text-accent">
-            CONTACT
+            {t.label[language]}
           </span>
           <div className="gold-separator mx-auto my-8" />
           <h2 className="mb-4 text-3xl font-light tracking-wide text-primary-foreground md:text-5xl">
-            Demande de <span className="italic">consultation privée</span>
+            {t.title1[language]} <span className="italic">{t.title2[language]}</span>
           </h2>
           <p className="mx-auto max-w-lg font-body text-sm font-light leading-relaxed text-primary-foreground/60">
-            Partagez-nous votre vision. Notre équipe vous recontacte sous 24 heures
-            pour créer ensemble un événement à votre image.
+            {t.description[language]}
           </p>
         </motion.div>
 
@@ -50,7 +54,7 @@ const FooterSection = () => {
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <input
               type="text"
-              placeholder="Votre nom"
+              placeholder={t.namePlaceholder[language]}
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               required
@@ -58,7 +62,7 @@ const FooterSection = () => {
             />
             <input
               type="email"
-              placeholder="Votre email"
+              placeholder={t.emailPlaceholder[language]}
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               required
@@ -71,14 +75,13 @@ const FooterSection = () => {
             required
             className="w-full border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground/40 focus:border-accent focus:outline-none [&>option]:bg-foreground [&>option]:text-primary-foreground"
           >
-            <option value="">Type d'événement</option>
-            <option value="mariage">Mariage</option>
-            <option value="bapteme">Baptême</option>
-            <option value="corporate">Gala & Corporate</option>
-            <option value="prive">Événement privé</option>
+            <option value="">{t.eventLabel[language]}</option>
+            {t.eventOptions[language].map((opt, i) => (
+              <option key={i} value={eventValues[i]}>{opt}</option>
+            ))}
           </select>
           <textarea
-            placeholder="Décrivez votre vision..."
+            placeholder={t.messagePlaceholder[language]}
             rows={4}
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -89,7 +92,7 @@ const FooterSection = () => {
               type="submit"
               className="mt-4 border border-accent px-12 py-4 font-body text-xs tracking-[0.25em] text-primary-foreground transition-all duration-300 hover:bg-accent hover:text-accent-foreground"
             >
-              ENVOYER MA DEMANDE
+              {t.submitButton[language]}
             </button>
           </div>
         </motion.form>
@@ -100,7 +103,7 @@ const FooterSection = () => {
             LA TABLE RAFFINÉE
           </p>
           <p className="mt-3 font-body text-xs tracking-wide text-primary-foreground/40">
-            12, Avenue des Champs-Élysées — 75008 Paris
+            {t.address[language]}
           </p>
           <p className="mt-1 font-body text-xs tracking-wide text-primary-foreground/40">
             +33 1 42 68 00 00 — contact@latable-raffinee.fr
@@ -117,7 +120,7 @@ const FooterSection = () => {
             </a>
           </div>
           <p className="mt-8 font-body text-[10px] tracking-wide text-primary-foreground/20">
-            © 2026 La Table Raffinée — Service sur-mesure
+            {t.copyright[language]}
           </p>
         </div>
       </div>

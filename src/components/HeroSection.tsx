@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-banquet.jpg";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useLanguage } from "@/i18n/LanguageContext";
+import { translations } from "@/i18n/translations";
 
 const HeroSection = () => {
+  const { language } = useLanguage();
+  const t = translations;
+
   return (
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image */}
@@ -31,11 +37,12 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="hidden items-center gap-10 font-body text-sm tracking-[0.15em] text-primary-foreground/80 md:flex"
         >
-          <a href="#philosophy" className="transition-colors hover:text-accent">Philosophie</a>
-          <a href="#services" className="transition-colors hover:text-accent">Prestations</a>
-          <a href="#gastronomy" className="transition-colors hover:text-accent">Gastronomie</a>
-          <a href="#testimonials" className="transition-colors hover:text-accent">Témoignages</a>
-          <a href="#contact" className="transition-colors hover:text-accent">Contact</a>
+          <a href="#philosophy" className="transition-colors hover:text-accent">{t.nav.philosophy[language]}</a>
+          <a href="#services" className="transition-colors hover:text-accent">{t.nav.services[language]}</a>
+          <a href="#gastronomy" className="transition-colors hover:text-accent">{t.nav.gastronomy[language]}</a>
+          <a href="#testimonials" className="transition-colors hover:text-accent">{t.nav.testimonials[language]}</a>
+          <a href="#contact" className="transition-colors hover:text-accent">{t.nav.contact[language]}</a>
+          <LanguageSwitcher />
         </motion.div>
       </nav>
 
@@ -49,14 +56,12 @@ const HeroSection = () => {
         >
           <div className="gold-separator-wide mx-auto mb-8" />
           <h1 className="mb-6 text-4xl font-light leading-tight tracking-wide text-primary-foreground md:text-6xl lg:text-7xl">
-            L'Art de Recevoir,
+            {t.hero.title1[language]}
             <br />
-            <span className="italic">L'Excellence à Votre Table.</span>
+            <span className="italic">{t.hero.title2[language]}</span>
           </h1>
-          <p className="mx-auto max-w-2xl font-body text-base font-light leading-relaxed tracking-wide text-primary-foreground/70 md:text-lg">
-            Traiteur d'exception pour vos événements les plus précieux.
-            <br />
-            Mariages, baptêmes, galas — chaque instant devient inoubliable.
+          <p className="mx-auto max-w-2xl whitespace-pre-line font-body text-base font-light leading-relaxed tracking-wide text-primary-foreground/70 md:text-lg">
+            {t.hero.subtitle[language]}
           </p>
           <div className="gold-separator-wide mx-auto mt-8" />
         </motion.div>
@@ -70,7 +75,7 @@ const HeroSection = () => {
             href="#contact"
             className="mt-4 inline-block border border-accent px-10 py-4 font-body text-xs tracking-[0.25em] text-primary-foreground transition-all duration-300 hover:bg-accent hover:text-accent-foreground"
           >
-            ORGANISER VOTRE ÉVÉNEMENT
+            {t.hero.cta[language]}
           </a>
         </motion.div>
       </div>
