@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ["Playfair Display", "Georgia", "serif"],
-        body: ["Montserrat", "system-ui", "sans-serif"],
+        serif: ["Playfair Display", "Noto Naskh Arabic", "Georgia", "serif"],
+        body: ["Montserrat", "Noto Naskh Arabic", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
