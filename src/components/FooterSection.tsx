@@ -106,7 +106,7 @@ const FooterSection = () => {
             {t.address[language]}
           </p>
           <p className="mt-1 font-body text-xs tracking-wide text-primary-foreground/40">
-            +33 1 42 68 00 00 — contact@latable-raffinee.fr
+            +212 661 57 64 46 — contact@latable-raffinee.com
           </p>
           <div className="mt-6 flex justify-center gap-8">
             <a href="#" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
