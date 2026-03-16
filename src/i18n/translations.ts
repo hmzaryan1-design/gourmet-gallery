@@ -154,6 +154,23 @@ export const translations = {
       en: ["Chef's Creation", "Signature Dessert", "Amuse-Bouche"],
       ar: ["إبداع الشيف", "حلوى مميزة", "مقبلات"],
     },
+    dishDescriptions: {
+      fr: [
+        "Une symphonie de saveurs nobles sublimée par notre chef étoilé",
+        "L'alliance parfaite entre chocolat noir et feuille d'or 24 carats",
+        "Un prélude raffiné qui éveille les sens avant le festin"
+      ],
+      en: [
+        "A symphony of noble flavors elevated by our starred chef",
+        "The perfect blend of dark chocolate and 24-karat gold leaf",
+        "A refined prelude that awakens the senses before the feast"
+      ],
+      ar: [
+        "سيمفونية من النكهات النبيلة يرتقي بها شيفنا الحائز على نجمة",
+        "المزيج المثالي بين الشوكولاتة الداكنة وأوراق الذهب عيار 24",
+        "مقدمة راقية توقظ الحواس قبل الوليمة"
+      ],
+    },
   },
 
   // Testimonials
