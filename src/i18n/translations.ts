@@ -214,9 +214,9 @@ export const translations = {
       ar: "شكراً لطلبكم. سنتواصل معكم خلال 24 ساعة.",
     },
     address: {
-      fr: "12, Avenue des Champs-Élysées — 75008 Paris",
-      en: "12, Avenue des Champs-Élysées — 75008 Paris",
-      ar: "12، شارع الشانزليزيه — 75008 باريس",
+      fr: "10, Rue Al Houdhoud, Étg 2 Apt 9 — Casa Anfa",
+      en: "10, Rue Al Houdhoud, Floor 2 Apt 9 — Casa Anfa",
+      ar: "10، شارع الهدهد، الطابق 2 شقة 9 — الدار البيضاء أنفا",
     },
     copyright: {
       fr: "© 2026 La Table Raffinée — Service sur-mesure",
