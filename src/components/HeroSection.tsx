@@ -17,7 +17,7 @@ const HeroSection = () => {
           alt="Banquet de mariage somptueux sous des lustres en cristal"
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-foreground/50" />
+        <div className="absolute inset-0 bg-foreground/[0.18]" />
       </div>
 
       {/* Navigation */}
