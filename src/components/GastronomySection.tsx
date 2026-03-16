@@ -39,31 +39,55 @@ const GastronomySection = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-          {dishImages.map((dish, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 40 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 0.2 + index * 0.15 }}
-              className="group relative overflow-hidden"
-            >
-              <img
-                src={dish.image}
-                alt={dish.alt}
-                className="h-96 w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 flex items-end bg-gradient-to-t from-foreground/60 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <div className="p-6">
-                  <div className="gold-separator mb-3" />
-                  <p className="font-serif text-lg tracking-wide text-primary-foreground">
-                    {t.dishes[language][index]}
-                  </p>
+        {/* Asymmetric grid: side dishes smaller & offset, center elevated */}
+        <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-12 md:gap-4">
+          {dishImages.map((dish, index) => {
+            // Center card is larger, sides are offset vertically
+            const isCenter = index === 1;
+            const colSpan = isCenter ? "md:col-span-5" : "md:col-span-3";
+            const offsetClass = index === 0
+              ? "md:translate-y-8"
+              : index === 2
+                ? "md:-translate-y-8"
+                : "";
+            const heightClass = isCenter ? "h-[480px]" : "h-[380px]";
+            const colStart = index === 0 ? "md:col-start-1" : index === 1 ? "md:col-start-4" : "md:col-start-9";
+
+            return (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 40 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.8, delay: 0.2 + index * 0.15 }}
+                className={`group relative overflow-hidden ${colSpan} ${colStart} ${offsetClass}`}
+              >
+                {/* Image with color harmonization overlay */}
+                <div className={`relative ${heightClass} overflow-hidden`}>
+                  <img
+                    src={dish.image}
+                    alt={dish.alt}
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  {/* Warm tone harmonization filter */}
+                  <div className="absolute inset-0 bg-accent/[0.06] mix-blend-multiply" />
+
+                  {/* Elegant hover overlay with description */}
+                  <div className="absolute inset-0 flex flex-col items-start justify-end bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent opacity-0 transition-all duration-500 group-hover:opacity-100">
+                    <div className="w-full p-6 translate-y-4 transition-transform duration-500 group-hover:translate-y-0">
+                      <div className="gold-separator mb-3" />
+                      <p className="font-serif text-lg tracking-wide text-accent">
+                        {t.dishes[language][index]}
+                      </p>
+                      <p className="mt-2 font-body text-xs font-light leading-relaxed tracking-wide text-primary-foreground/70">
+                        {t.dishDescriptions[language][index]}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>
