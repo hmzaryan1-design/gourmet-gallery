@@ -55,12 +55,12 @@ const HeroSection = () => {
           className="mb-6"
         >
           <div className="gold-separator-wide mx-auto mb-8" />
-          <h1 className="mb-6 text-4xl font-light leading-tight tracking-wide text-primary-foreground md:text-6xl lg:text-7xl">
+          <h1 className="mb-6 text-4xl font-light leading-tight tracking-wide text-gold-gradient md:text-6xl lg:text-7xl">
             {t.hero.title1[language]}
             <br />
             <span className="italic">{t.hero.title2[language]}</span>
           </h1>
-          <p className="mx-auto max-w-2xl whitespace-pre-line font-body text-base font-light leading-relaxed tracking-wide text-primary-foreground/70 md:text-lg">
+          <p className="mx-auto max-w-2xl whitespace-pre-line font-body text-base font-extralight leading-relaxed tracking-wide text-primary-foreground/80 md:text-lg">
             {t.hero.subtitle[language]}
           </p>
           <div className="gold-separator-wide mx-auto mt-8" />
