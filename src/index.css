@@ -101,7 +101,7 @@
 
 @layer utilities {
   .text-gold-gradient {
-    background: linear-gradient(135deg, "#e3d7c0", "#e9dcc2", "#f0e8d9");
+    background: linear-gradient(135deg, #e3d7c0, #e9dcc2, #f0e8d9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
