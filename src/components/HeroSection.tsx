@@ -47,7 +47,7 @@ const HeroSection = () => {
       </nav>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex h-[calc(100vh-88px)] flex-col items-center justify-center px-6 text-center">
+      <div className="p-slogon relative z-10 flex h-[calc(100vh-220px)] flex-col items-center justify-center px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -70,6 +70,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
+          className="event-contact"
         >
           <a
             href="#contact"
