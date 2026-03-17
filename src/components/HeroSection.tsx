@@ -74,7 +74,7 @@ const HeroSection = () => {
         >
           <a
             href="#contact"
-            className="mt-4 inline-block border border-accent px-10 py-4 font-body text-xs tracking-[0.25em] text-primary-foreground transition-all duration-300 hover:bg-accent hover:text-accent-foreground"
+            className="mt-4 inline-block border border-accent px-10 py-4 font-body text-xs tracking-[0.25em] bg-accent text-accent-foreground transition-all duration-300 hover:bg-accent hover:text-accent-foreground"
           >
             {t.hero.cta[language]}
           </a>
