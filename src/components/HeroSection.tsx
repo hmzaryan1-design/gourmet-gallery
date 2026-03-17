@@ -47,7 +47,7 @@ const HeroSection = () => {
       </nav>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex h-[calc(100vh-220px)] flex-col items-center justify-center px-6 text-center">
+      <div className="welcome-title relative z-10 flex h-[calc(100vh-200px)] flex-col items-center justify-center px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -60,7 +60,7 @@ const HeroSection = () => {
             <br />
             <span className="italic">{t.hero.title2[language]}</span>
           </h1>
-          <p className="p-slogon mx-auto max-w-2xl whitespace-pre-line font-body text-base font-extralight leading-relaxed tracking-wide text-primary-foreground/80 md:text-lg">
+          <p className="mx-auto max-w-2xl whitespace-pre-line font-body text-base font-extralight leading-relaxed tracking-wide text-primary-foreground/80 md:text-lg">
             {t.hero.subtitle[language]}
           </p>
           <div className="gold-separator-wide mx-auto mt-8" />
