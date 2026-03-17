@@ -43,11 +43,12 @@ const ServicesSection = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.2 + index * 0.2 }}
-              className={`flex flex-col items-center gap-12 lg:flex-row ${
+              className={`relative flex flex-col items-center gap-12 lg:flex-row ${
                 index % 2 === 1 ? "lg:flex-row-reverse" : ""
               }`}
             >
-              <div className="w-full overflow-hidden lg:w-1/2">
+              {/* Image — slightly narrower to give text more breathing room */}
+              <div className="w-full overflow-hidden lg:w-[45%]">
                 <img
                   src={images[index].image}
                   alt={images[index].alt}
@@ -55,17 +56,29 @@ const ServicesSection = () => {
                   loading="lazy"
                 />
               </div>
-              <div className="w-full lg:w-1/2 lg:px-8">
-                <div className="gold-separator mb-6" />
-                <h3 className="mb-2 text-2xl font-light tracking-wide text-foreground md:text-3xl">
-                  {service.title}
-                </h3>
-                <p className="mb-4 font-serif text-lg italic text-accent">
-                  {service.subtitle}
-                </p>
-                <p className="font-body text-sm font-light leading-loose text-muted-foreground">
-                  {service.description}
-                </p>
+
+              {/* Text content with filigree monogram background */}
+              <div className="relative w-full lg:w-[55%] lg:px-12">
+                {/* Filigree monogram watermark */}
+                <span
+                  className="pointer-events-none absolute -right-4 top-1/2 -translate-y-1/2 select-none font-serif text-[12rem] font-light leading-none tracking-wider text-accent/[0.06]"
+                  aria-hidden="true"
+                >
+                  LTR
+                </span>
+
+                <div className="relative z-10">
+                  <div className="gold-separator mb-6" />
+                  <h3 className="mb-2 text-2xl font-light tracking-wide text-foreground md:text-3xl">
+                    {service.title}
+                  </h3>
+                  <p className="mb-4 font-serif text-base italic text-accent">
+                    {service.subtitle}
+                  </p>
+                  <p className="font-body text-sm font-light leading-loose text-muted-foreground">
+                    {service.description}
+                  </p>
+                </div>
               </div>
             </motion.div>
           ))}
