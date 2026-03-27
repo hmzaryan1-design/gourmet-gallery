@@ -48,7 +48,7 @@ export const translations = {
       ar: "بفن الحياة",
     },
     description: {
-      fr: "Depuis plus de vingt ans, La Table Raffinée sublime chaque événement en une symphonie de saveurs. Nos chefs sélectionnent avec passion les produits les plus nobles — truffes, homards, herbes fraîches de nos jardins — pour créer des menus sur-mesure qui racontent votre histoire.",
+      fr: "Sublimer l'instant, orchestrer l'émotion. La Table Raffinée transforme vos réceptions en moments de prestige, mêlant scénographie élégante et art culinaire d'exception. En sélectionnant des ingrédients rares pour des menus sur-mesure, nos équipes imaginent des événements singuliers où chaque détail est une célébration de votre art de recevoir.",
       en: "For over twenty years, La Table Raffinée has elevated every event into a symphony of flavors. Our chefs passionately select the finest ingredients — truffles, lobsters, fresh herbs from our gardens — to create bespoke menus that tell your story.",
       ar: "منذ أكثر من عشرين عامًا، ترتقي La Table Raffinée بكل حدث إلى سيمفونية من النكهات. يختار طهاتنا بشغف أرقى المكونات — الكمأة، والكركند، والأعشاب الطازجة من حدائقنا — لابتكار قوائم طعام مخصصة تروي قصتكم.",
     },
@@ -56,7 +56,7 @@ export const translations = {
       fr: [
         { title: "Produits d'Exception", desc: "Sélection rigoureuse de produits nobles, locaux et de saison." },
         { title: "Savoir-Faire Artisanal", desc: "Chaque plat est une œuvre, dressé à la pince avec précision." },
-        { title: "Sur-Mesure Absolu", desc: "Votre événement est unique, notre prestation l'est aussi." },
+        { title: "Signature Unique", desc: "Votre événement est une pièce unique. Nous façonnons chaque détail à votre image." },
       ],
       en: [
         { title: "Exceptional Ingredients", desc: "Rigorous selection of noble, local, and seasonal products." },
@@ -89,7 +89,7 @@ export const translations = {
         {
           title: "Mariages",
           subtitle: "Le plus beau jour de votre vie, sublimé.",
-          description: "De la cérémonie au dîner, nous orchestrons chaque détail culinaire avec une élégance inégalée. Menus dégustation, cocktails signature, pièce montée spectaculaire.",
+          description: "De la cérémonie au dîner, nous orchestrons chaque détail culinaire avec une élégance inégalée. Menus dégustation, cocktails signature, pièce montée majestueuse.",
         },
         {
           title: "Baptêmes & Événements Privés",
@@ -99,7 +99,7 @@ export const translations = {
         {
           title: "Galas & Corporate",
           subtitle: "L'excellence au service de votre image.",
-          description: "Dîners de gala, lancements de produits, séminaires prestigieux. Notre expertise transforme vos événements d'entreprise en expériences mémorables.",
+          description: "Dîners de gala, lancements de produits, séminaires prestigieux. Notre expertise transforme vos événements d'entreprise en expériences mémorables pour sublimer vos clients et vos collaborateurs.",
         },
       ],
       en: [
@@ -231,9 +231,9 @@ export const translations = {
       ar: "شكراً لطلبكم. سنتواصل معكم خلال 24 ساعة.",
     },
     address: {
-      fr: "10, Rue Al Houdhoud, Étg 2 Apt 9 — Casa Anfa",
-      en: "10, Rue Al Houdhoud, Floor 2 Apt 9 — Casa Anfa",
-      ar: "10، شارع الهدهد، الطابق 2 شقة 9 — الدار البيضاء أنفا",
+      fr: "",
+      en: "",
+      ar: "",
     },
     copyright: {
       fr: "© 2026 La Table Raffinée — Service sur-mesure",

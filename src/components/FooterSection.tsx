@@ -102,9 +102,11 @@ const FooterSection = () => {
           <p className="font-serif text-lg tracking-[0.2em] text-primary-foreground/80">
             LA TABLE RAFFINÉE
           </p>
-          <p className="mt-3 font-body text-xs tracking-wide text-primary-foreground/40">
-            {t.address[language]}
-          </p>
+          {t.address[language] && (
+            <p className="mt-3 font-body text-xs tracking-wide text-primary-foreground/40">
+              {t.address[language]}
+            </p>
+          )}
           <p className="mt-1 font-body text-xs tracking-wide text-primary-foreground/40">
             +212 661 57 64 46 — contact@latableraffinee.com
           </p>
