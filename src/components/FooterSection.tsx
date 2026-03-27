@@ -111,7 +111,7 @@ const FooterSection = () => {
             +212 661 57 64 46 — contact@latableraffinee.com
           </p>
           <div className="mt-6 flex justify-center">
-            <a href="https://www.instagram.com/hk_events23?igsh=dzJ6b3YxNHF1M3Nu" target="_blank" rel="noopener noreferrer" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
+            <a href="https://www.instagram.com/la_table_raffinee?igsh=MWhodTVnNXVkemsxaA==" target="_blank" rel="noopener noreferrer" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
               Instagram
             </a>
           </div>
