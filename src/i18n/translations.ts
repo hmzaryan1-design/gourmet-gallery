@@ -23,7 +23,7 @@ export const translations = {
       ar: "التميز على مائدتكم.",
     },
     subtitle: {
-      fr: "Traiteur d'exception pour vos événements les plus précieux.\nMariages, baptêmes, galas — chaque instant devient inoubliable.",
+      fr: "Traiteur d'exception à Casablanca pour vos événements précieux.\nMariages, baptêmes et galas : vivez un instant inoubliable avec notre cuisine raffinée.",
       en: "Exceptional catering for your most precious events.\nWeddings, christenings, galas — every moment becomes unforgettable.",
       ar: "تقديم طعام استثنائي لأغلى مناسباتكم.\nحفلات زفاف، تعميد، حفلات — كل لحظة تصبح لا تُنسى.",
     },
