@@ -150,25 +150,31 @@ export const translations = {
       ar: "كل طبق لوحة فنية، وكل نكهة عاطفة. يحوّل طهاتنا المكونات الاستثنائية إلى أعمال فنية عابرة.",
     },
     dishes: {
-      fr: ["Création du Chef", "Dessert Signature", "Amuse-Bouche"],
-      en: ["Chef's Creation", "Signature Dessert", "Amuse-Bouche"],
-      ar: ["إبداع الشيف", "حلوى مميزة", "مقبلات"],
+      fr: ["Buffet Gastronomique", "Art de la Table", "Réception en Plein Air", "Buffet Jardin", "Accueil Événementiel"],
+      en: ["Gourmet Buffet", "Table Art", "Outdoor Reception", "Garden Buffet", "Event Welcome"],
+      ar: ["بوفيه فاخر", "فن المائدة", "استقبال في الهواء الطلق", "بوفيه الحديقة", "استقبال الفعاليات"],
     },
     dishDescriptions: {
       fr: [
-        "Une symphonie de saveurs nobles sublimée par notre chef étoilé",
-        "L'alliance parfaite entre chocolat noir et feuille d'or 24 carats",
-        "Un prélude raffiné qui éveille les sens avant le festin"
+        "Un buffet chaud somptueux aux saveurs raffinées et généreuses",
+        "Dressage en or et blanc pour une élégance absolue",
+        "Une réception champêtre sublimée par une décoration florale d'exception",
+        "Un écrin de verdure avec verrines, fruits frais et pâtisseries artisanales",
+        "Un accueil prestigieux à la hauteur de vos événements les plus mémorables"
       ],
       en: [
-        "A symphony of noble flavors elevated by our starred chef",
-        "The perfect blend of dark chocolate and 24-karat gold leaf",
-        "A refined prelude that awakens the senses before the feast"
+        "A sumptuous hot buffet with refined and generous flavors",
+        "Gold and white table setting for absolute elegance",
+        "A countryside reception elevated by exceptional floral decoration",
+        "A garden oasis with verrines, fresh fruits and artisanal pastries",
+        "A prestigious welcome worthy of your most memorable events"
       ],
       ar: [
-        "سيمفونية من النكهات النبيلة يرتقي بها شيفنا الحائز على نجمة",
-        "المزيج المثالي بين الشوكولاتة الداكنة وأوراق الذهب عيار 24",
-        "مقدمة راقية توقظ الحواس قبل الوليمة"
+        "بوفيه ساخن فاخر بنكهات راقية وسخية",
+        "تزيين مائدة بالذهب والأبيض لأناقة مطلقة",
+        "استقبال ريفي يرتقي بزخرفة زهرية استثنائية",
+        "واحة خضراء مع كؤوس صغيرة وفواكه طازجة ومعجنات حرفية",
+        "استقبال مرموق يليق بأكثر فعالياتكم تميزاً"
       ],
     },
   },
