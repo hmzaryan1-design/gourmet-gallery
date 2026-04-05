@@ -108,7 +108,7 @@ const FooterSection = () => {
             </p>
           )}
           <p className="mt-1 font-body text-xs tracking-wide text-primary-foreground/40">
-            +212 661 57 64 46 — contact@latableraffinee.com
+            +212 661 57 64 46 — +212 661-577837 — contact@latableraffinee.com
           </p>
           <div className="mt-6 flex justify-center">
             <a href="https://www.instagram.com/la_table_raffinee?igsh=MWhodTVnNXVkemsxaA==" target="_blank" rel="noopener noreferrer" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
