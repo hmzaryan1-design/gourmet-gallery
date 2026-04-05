@@ -142,12 +142,12 @@ export const translations = {
   // Gastronomy
   gastronomy: {
     label: { fr: "LA CARTE", en: "THE MENU", ar: "القائمة" },
-    title1: { fr: "L'art du", en: "The art of", ar: "فن" },
-    title2: { fr: "dressage", en: "plating", ar: "التقديم" },
+    title1: { fr: "Nos", en: "Our", ar: "خدماتنا" },
+    title2: { fr: "prestations", en: "services", ar: "المتميزة" },
     description: {
-      fr: "Chaque assiette est une toile, chaque saveur une émotion. Nos chefs transforment les produits d'exception en œuvres éphémères.",
-      en: "Each plate is a canvas, each flavor an emotion. Our chefs transform exceptional ingredients into ephemeral works of art.",
-      ar: "كل طبق لوحة فنية، وكل نكهة عاطفة. يحوّل طهاتنا المكونات الاستثنائية إلى أعمال فنية عابرة.",
+      fr: "Buffets d'exception, tables somptueuses et réceptions en plein air — nous orchestrons chaque détail pour sublimer vos événements les plus précieux.",
+      en: "Exceptional buffets, sumptuous table settings and outdoor receptions — we orchestrate every detail to elevate your most precious events.",
+      ar: "بوفيهات استثنائية، موائد فاخرة واستقبالات في الهواء الطلق — ننسّق كل تفصيل لنرتقي بأغلى مناسباتكم.",
     },
     dishes: {
       fr: ["Buffet Gastronomique", "Art de la Table", "Réception en Plein Air", "Buffet Jardin", "Accueil Événementiel"],
