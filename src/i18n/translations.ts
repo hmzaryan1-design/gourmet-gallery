@@ -23,7 +23,7 @@ export const translations = {
       ar: "التميز على مائدتكم.",
     },
     subtitle: {
-      fr: "Traiteur d'exception pour vos événements les plus précieux.\nMariages, baptêmes, galas — chaque instant devient inoubliable.",
+      fr: "Traiteur d'exception à Casablanca pour vos événements précieux.\nMariages, baptêmes et galas : vivez un instant inoubliable avec notre cuisine raffinée.",
       en: "Exceptional catering for your most precious events.\nWeddings, christenings, galas — every moment becomes unforgettable.",
       ar: "تقديم طعام استثنائي لأغلى مناسباتكم.\nحفلات زفاف، تعميد، حفلات — كل لحظة تصبح لا تُنسى.",
     },
@@ -99,7 +99,37 @@ export const translations = {
         {
           title: "Galas & Corporate",
           subtitle: "L'excellence au service de votre image.",
-          description: "Dîners de gala, lancements de produits, séminaires prestigieux. Notre expertise transforme vos événements d'entreprise en expériences mémorables pour sublimer vos clients et vos collaborateurs.",
+          description: "Dîners de gala, lancements de produits, séminaires prestigieux. Notre expertise transforme vos événements d'entreprise en expériences mémorables.",
+        },
+        {
+          title: "Décoration & Scénographie",
+          subtitle: "L'art de créer des ambiances inoubliables.",
+          description: "Décors floraux, mise en lumière, scénographies thématiques — nous concevons des univers visuels sur-mesure qui subliment chaque instant de votre événement.",
+        },
+        {
+          title: "Organisation & Coordination",
+          subtitle: "Votre sérénité, notre engagement.",
+          description: "De la planification à l'exécution, notre équipe d'organisateurs coordonne chaque prestataire et chaque étape pour un événement fluide et sans stress.",
+        },
+        {
+          title: "Sécurité & Accueil",
+          subtitle: "Un accueil irréprochable, une sécurité totale.",
+          description: "Agents de sécurité professionnels, hôtesses d'accueil élégantes et service de protocole pour garantir le confort et la tranquillité de vos invités.",
+        },
+        {
+          title: "Service Voiturier",
+          subtitle: "L'élégance dès l'arrivée.",
+          description: "Un service de voiturier discret et professionnel pour accueillir vos convives avec distinction et assurer une expérience premium du premier au dernier instant.",
+        },
+        {
+          title: "Location de Salles",
+          subtitle: "Des lieux d'exception pour des moments rares.",
+          description: "Accès à un réseau de salles et domaines prestigieux à Casablanca et au-delà. Nous vous accompagnons dans le choix du cadre idéal pour votre réception.",
+        },
+        {
+          title: "Plateau Artistique",
+          subtitle: "L'âme musicale de votre soirée.",
+          description: "Orchestres, DJ, artistes live, groupes de musique — nous composons le plateau artistique qui donnera à votre événement une atmosphère unique et vibrante.",
         },
       ],
       en: [
@@ -118,6 +148,36 @@ export const translations = {
           subtitle: "Excellence at the service of your image.",
           description: "Gala dinners, product launches, prestigious seminars. Our expertise transforms your corporate events into memorable experiences.",
         },
+        {
+          title: "Decoration & Scenography",
+          subtitle: "The art of creating unforgettable atmospheres.",
+          description: "Floral décor, lighting design, thematic scenography — we create bespoke visual worlds that elevate every moment of your event.",
+        },
+        {
+          title: "Planning & Coordination",
+          subtitle: "Your peace of mind, our commitment.",
+          description: "From planning to execution, our team coordinates every vendor and every step for a seamless, stress-free event.",
+        },
+        {
+          title: "Security & Hospitality",
+          subtitle: "Impeccable welcome, total security.",
+          description: "Professional security agents, elegant hostesses and protocol service to ensure the comfort and peace of mind of your guests.",
+        },
+        {
+          title: "Valet Service",
+          subtitle: "Elegance from the moment of arrival.",
+          description: "A discreet and professional valet service to welcome your guests with distinction and ensure a premium experience from start to finish.",
+        },
+        {
+          title: "Venue Rental",
+          subtitle: "Exceptional venues for rare moments.",
+          description: "Access to a network of prestigious halls and estates in Casablanca and beyond. We guide you in choosing the perfect setting for your reception.",
+        },
+        {
+          title: "Entertainment",
+          subtitle: "The musical soul of your evening.",
+          description: "Orchestras, DJs, live artists, music bands — we curate the entertainment lineup that gives your event a unique and vibrant atmosphere.",
+        },
       ],
       ar: [
         {
@@ -135,6 +195,36 @@ export const translations = {
           subtitle: "التميز في خدمة صورتكم.",
           description: "عشاءات غالا، إطلاق منتجات، ندوات مرموقة. خبرتنا تحوّل فعالياتكم إلى تجارب لا تُنسى.",
         },
+        {
+          title: "الديكور والسينوغرافيا",
+          subtitle: "فن خلق أجواء لا تُنسى.",
+          description: "ديكورات زهرية، إضاءة فنية، سينوغرافيا موضوعية — نبتكر عوالم بصرية مخصصة ترتقي بكل لحظة من حدثكم.",
+        },
+        {
+          title: "التنظيم والتنسيق",
+          subtitle: "راحة بالكم، التزامنا.",
+          description: "من التخطيط إلى التنفيذ، فريقنا ينسق كل مزود وكل مرحلة لحدث سلس وخالٍ من التوتر.",
+        },
+        {
+          title: "الأمن والاستقبال",
+          subtitle: "استقبال لا تشوبه شائبة، أمان تام.",
+          description: "عناصر أمن محترفون، مضيفات أنيقات وخدمة بروتوكول لضمان راحة وطمأنينة ضيوفكم.",
+        },
+        {
+          title: "خدمة صف السيارات",
+          subtitle: "الأناقة منذ لحظة الوصول.",
+          description: "خدمة صف سيارات راقية واحترافية لاستقبال ضيوفكم بتميز وضمان تجربة فاخرة من البداية حتى النهاية.",
+        },
+        {
+          title: "تأجير القاعات",
+          subtitle: "أماكن استثنائية للحظات نادرة.",
+          description: "وصول إلى شبكة من القاعات والأملاك الفاخرة في الدار البيضاء وخارجها. نرافقكم في اختيار الإطار المثالي لحفلكم.",
+        },
+        {
+          title: "الفقرات الفنية",
+          subtitle: "الروح الموسيقية لسهرتكم.",
+          description: "أوركسترا، دي جي، فنانون حيّون، فرق موسيقية — نؤلف البرنامج الفني الذي يمنح حدثكم أجواءً فريدة ونابضة بالحياة.",
+        },
       ],
     },
   },
@@ -142,33 +232,39 @@ export const translations = {
   // Gastronomy
   gastronomy: {
     label: { fr: "LA CARTE", en: "THE MENU", ar: "القائمة" },
-    title1: { fr: "L'art du", en: "The art of", ar: "فن" },
-    title2: { fr: "dressage", en: "plating", ar: "التقديم" },
+    title1: { fr: "Nos", en: "Our", ar: "خدماتنا" },
+    title2: { fr: "prestations", en: "services", ar: "المتميزة" },
     description: {
-      fr: "Chaque assiette est une toile, chaque saveur une émotion. Nos chefs transforment les produits d'exception en œuvres éphémères.",
-      en: "Each plate is a canvas, each flavor an emotion. Our chefs transform exceptional ingredients into ephemeral works of art.",
-      ar: "كل طبق لوحة فنية، وكل نكهة عاطفة. يحوّل طهاتنا المكونات الاستثنائية إلى أعمال فنية عابرة.",
+      fr: "Buffets d'exception, tables somptueuses et réceptions en plein air — nous orchestrons chaque détail pour sublimer vos événements les plus précieux.",
+      en: "Exceptional buffets, sumptuous table settings and outdoor receptions — we orchestrate every detail to elevate your most precious events.",
+      ar: "بوفيهات استثنائية، موائد فاخرة واستقبالات في الهواء الطلق — ننسّق كل تفصيل لنرتقي بأغلى مناسباتكم.",
     },
     dishes: {
-      fr: ["Création du Chef", "Dessert Signature", "Amuse-Bouche"],
-      en: ["Chef's Creation", "Signature Dessert", "Amuse-Bouche"],
-      ar: ["إبداع الشيف", "حلوى مميزة", "مقبلات"],
+      fr: ["Buffet Gastronomique", "Art de la Table", "Réception en Plein Air", "Buffet Jardin", "Accueil Événementiel"],
+      en: ["Gourmet Buffet", "Table Art", "Outdoor Reception", "Garden Buffet", "Event Welcome"],
+      ar: ["بوفيه فاخر", "فن المائدة", "استقبال في الهواء الطلق", "بوفيه الحديقة", "استقبال الفعاليات"],
     },
     dishDescriptions: {
       fr: [
-        "Une symphonie de saveurs nobles sublimée par notre chef étoilé",
-        "L'alliance parfaite entre chocolat noir et feuille d'or 24 carats",
-        "Un prélude raffiné qui éveille les sens avant le festin"
+        "Un buffet chaud somptueux aux saveurs raffinées et généreuses",
+        "Dressage en or et blanc pour une élégance absolue",
+        "Une réception champêtre sublimée par une décoration florale d'exception",
+        "Un écrin de verdure avec verrines, fruits frais et pâtisseries artisanales",
+        "Un accueil prestigieux à la hauteur de vos événements les plus mémorables"
       ],
       en: [
-        "A symphony of noble flavors elevated by our starred chef",
-        "The perfect blend of dark chocolate and 24-karat gold leaf",
-        "A refined prelude that awakens the senses before the feast"
+        "A sumptuous hot buffet with refined and generous flavors",
+        "Gold and white table setting for absolute elegance",
+        "A countryside reception elevated by exceptional floral decoration",
+        "A garden oasis with verrines, fresh fruits and artisanal pastries",
+        "A prestigious welcome worthy of your most memorable events"
       ],
       ar: [
-        "سيمفونية من النكهات النبيلة يرتقي بها شيفنا الحائز على نجمة",
-        "المزيج المثالي بين الشوكولاتة الداكنة وأوراق الذهب عيار 24",
-        "مقدمة راقية توقظ الحواس قبل الوليمة"
+        "بوفيه ساخن فاخر بنكهات راقية وسخية",
+        "تزيين مائدة بالذهب والأبيض لأناقة مطلقة",
+        "استقبال ريفي يرتقي بزخرفة زهرية استثنائية",
+        "واحة خضراء مع كؤوس صغيرة وفواكه طازجة ومعجنات حرفية",
+        "استقبال مرموق يليق بأكثر فعالياتكم تميزاً"
       ],
     },
   },

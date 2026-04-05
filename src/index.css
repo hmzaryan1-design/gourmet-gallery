@@ -131,3 +131,7 @@
     margin-top: 13em;
   }
 }
+
+#lovable-badge {
+  display: none !important;
+}
