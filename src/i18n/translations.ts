@@ -99,7 +99,37 @@ export const translations = {
         {
           title: "Galas & Corporate",
           subtitle: "L'excellence au service de votre image.",
-          description: "Dîners de gala, lancements de produits, séminaires prestigieux. Notre expertise transforme vos événements d'entreprise en expériences mémorables pour sublimer vos clients et vos collaborateurs.",
+          description: "Dîners de gala, lancements de produits, séminaires prestigieux. Notre expertise transforme vos événements d'entreprise en expériences mémorables.",
+        },
+        {
+          title: "Décoration & Scénographie",
+          subtitle: "L'art de créer des ambiances inoubliables.",
+          description: "Décors floraux, mise en lumière, scénographies thématiques — nous concevons des univers visuels sur-mesure qui subliment chaque instant de votre événement.",
+        },
+        {
+          title: "Organisation & Coordination",
+          subtitle: "Votre sérénité, notre engagement.",
+          description: "De la planification à l'exécution, notre équipe d'organisateurs coordonne chaque prestataire et chaque étape pour un événement fluide et sans stress.",
+        },
+        {
+          title: "Sécurité & Accueil",
+          subtitle: "Un accueil irréprochable, une sécurité totale.",
+          description: "Agents de sécurité professionnels, hôtesses d'accueil élégantes et service de protocole pour garantir le confort et la tranquillité de vos invités.",
+        },
+        {
+          title: "Service Voiturier",
+          subtitle: "L'élégance dès l'arrivée.",
+          description: "Un service de voiturier discret et professionnel pour accueillir vos convives avec distinction et assurer une expérience premium du premier au dernier instant.",
+        },
+        {
+          title: "Location de Salles",
+          subtitle: "Des lieux d'exception pour des moments rares.",
+          description: "Accès à un réseau de salles et domaines prestigieux à Casablanca et au-delà. Nous vous accompagnons dans le choix du cadre idéal pour votre réception.",
+        },
+        {
+          title: "Plateau Artistique",
+          subtitle: "L'âme musicale de votre soirée.",
+          description: "Orchestres, DJ, artistes live, groupes de musique — nous composons le plateau artistique qui donnera à votre événement une atmosphère unique et vibrante.",
         },
       ],
       en: [
@@ -118,6 +148,36 @@ export const translations = {
           subtitle: "Excellence at the service of your image.",
           description: "Gala dinners, product launches, prestigious seminars. Our expertise transforms your corporate events into memorable experiences.",
         },
+        {
+          title: "Decoration & Scenography",
+          subtitle: "The art of creating unforgettable atmospheres.",
+          description: "Floral décor, lighting design, thematic scenography — we create bespoke visual worlds that elevate every moment of your event.",
+        },
+        {
+          title: "Planning & Coordination",
+          subtitle: "Your peace of mind, our commitment.",
+          description: "From planning to execution, our team coordinates every vendor and every step for a seamless, stress-free event.",
+        },
+        {
+          title: "Security & Hospitality",
+          subtitle: "Impeccable welcome, total security.",
+          description: "Professional security agents, elegant hostesses and protocol service to ensure the comfort and peace of mind of your guests.",
+        },
+        {
+          title: "Valet Service",
+          subtitle: "Elegance from the moment of arrival.",
+          description: "A discreet and professional valet service to welcome your guests with distinction and ensure a premium experience from start to finish.",
+        },
+        {
+          title: "Venue Rental",
+          subtitle: "Exceptional venues for rare moments.",
+          description: "Access to a network of prestigious halls and estates in Casablanca and beyond. We guide you in choosing the perfect setting for your reception.",
+        },
+        {
+          title: "Entertainment",
+          subtitle: "The musical soul of your evening.",
+          description: "Orchestras, DJs, live artists, music bands — we curate the entertainment lineup that gives your event a unique and vibrant atmosphere.",
+        },
       ],
       ar: [
         {
@@ -134,6 +194,36 @@ export const translations = {
           title: "الحفلات الرسمية والشركات",
           subtitle: "التميز في خدمة صورتكم.",
           description: "عشاءات غالا، إطلاق منتجات، ندوات مرموقة. خبرتنا تحوّل فعالياتكم إلى تجارب لا تُنسى.",
+        },
+        {
+          title: "الديكور والسينوغرافيا",
+          subtitle: "فن خلق أجواء لا تُنسى.",
+          description: "ديكورات زهرية، إضاءة فنية، سينوغرافيا موضوعية — نبتكر عوالم بصرية مخصصة ترتقي بكل لحظة من حدثكم.",
+        },
+        {
+          title: "التنظيم والتنسيق",
+          subtitle: "راحة بالكم، التزامنا.",
+          description: "من التخطيط إلى التنفيذ، فريقنا ينسق كل مزود وكل مرحلة لحدث سلس وخالٍ من التوتر.",
+        },
+        {
+          title: "الأمن والاستقبال",
+          subtitle: "استقبال لا تشوبه شائبة، أمان تام.",
+          description: "عناصر أمن محترفون، مضيفات أنيقات وخدمة بروتوكول لضمان راحة وطمأنينة ضيوفكم.",
+        },
+        {
+          title: "خدمة صف السيارات",
+          subtitle: "الأناقة منذ لحظة الوصول.",
+          description: "خدمة صف سيارات راقية واحترافية لاستقبال ضيوفكم بتميز وضمان تجربة فاخرة من البداية حتى النهاية.",
+        },
+        {
+          title: "تأجير القاعات",
+          subtitle: "أماكن استثنائية للحظات نادرة.",
+          description: "وصول إلى شبكة من القاعات والأملاك الفاخرة في الدار البيضاء وخارجها. نرافقكم في اختيار الإطار المثالي لحفلكم.",
+        },
+        {
+          title: "الفقرات الفنية",
+          subtitle: "الروح الموسيقية لسهرتكم.",
+          description: "أوركسترا، دي جي، فنانون حيّون، فرق موسيقية — نؤلف البرنامج الفني الذي يمنح حدثكم أجواءً فريدة ونابضة بالحياة.",
         },
       ],
     },
