@@ -19,7 +19,7 @@ const FooterSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert(t.successMessage[language]);
-    setFormData({ name: "", email: "", event: "", message: "" });
+    setFormData({ name: "", phone: "", email: "", event: "", message: "" });
   };
 
   const eventValues = ["mariage", "bapteme", "corporate", "prive"];
