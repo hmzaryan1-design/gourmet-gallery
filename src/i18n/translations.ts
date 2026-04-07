@@ -304,6 +304,7 @@ export const translations = {
       ar: "شاركونا رؤيتكم. سيتواصل فريقنا معكم خلال 24 ساعة لنصنع معاً حدثاً يعكس شخصيتكم.",
     },
     namePlaceholder: { fr: "Votre nom", en: "Your name", ar: "اسمكم" },
+    phonePlaceholder: { fr: "Votre téléphone", en: "Your phone number", ar: "رقم هاتفكم" },
     emailPlaceholder: { fr: "Votre email", en: "Your email", ar: "بريدكم الإلكتروني" },
     eventLabel: { fr: "Type d'événement", en: "Event type", ar: "نوع الحدث" },
     eventOptions: {

@@ -62,14 +62,21 @@ const FooterSection = () => {
               className="border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none" />
 
             <input
-              type="email"
-              placeholder={t.emailPlaceholder[language]}
-              value={formData.email}
-              onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+              type="tel"
+              placeholder={t.phonePlaceholder[language]}
+              value={formData.phone}
+              onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
               required
               className="border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none" />
-
           </div>
+
+          <input
+            type="email"
+            placeholder={t.emailPlaceholder[language]}
+            value={formData.email}
+            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+            required
+            className="w-full border-b border-primary-foreground/20 bg-transparent px-0 py-3 font-body text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none" />
           <select
             value={formData.event}
             onChange={(e) => setFormData({ ...formData, event: e.target.value })}
