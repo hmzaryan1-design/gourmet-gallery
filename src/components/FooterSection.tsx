@@ -10,6 +10,7 @@ const FooterSection = () => {
   const t = translations.footer;
   const [formData, setFormData] = useState({
     name: "",
+    phone: "",
     email: "",
     event: "",
     message: ""
