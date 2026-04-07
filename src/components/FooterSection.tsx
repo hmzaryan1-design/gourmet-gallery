@@ -110,17 +110,23 @@ const FooterSection = () => {
           <p className="font-serif text-lg tracking-[0.2em] text-primary-foreground/80">
             LA TABLE RAFFINÉE
           </p>
-          {t.address[language] && (
-            <p className="mt-3 font-body text-xs tracking-wide text-primary-foreground/40">
-              {t.address[language]}
-            </p>
-          )}
-          <p className="mt-1 font-body text-xs tracking-wide text-primary-foreground/40">
-            +212 661 57 64 46 — +212 661-577837 — contact@latableraffinee.com
+          <p className="mt-3 font-body text-xs tracking-wide text-primary-foreground/40">
+            Casablanca, Maroc
           </p>
-          <div className="mt-6 flex justify-center">
+          <p className="mt-1 font-body text-xs tracking-wide text-primary-foreground/40">
+            <a href="tel:+212661576446" className="transition-colors hover:text-accent">+212 661 57 64 46</a>
+            {" — "}
+            <a href="tel:+212661577837" className="transition-colors hover:text-accent">+212 661-577837</a>
+            {" — "}
+            <a href="mailto:contact@latableraffinee.com" className="transition-colors hover:text-accent">contact@latableraffinee.com</a>
+          </p>
+          <div className="mt-6 flex items-center justify-center gap-6">
             <a href="https://www.instagram.com/la_table_raffinee?igsh=MWhodTVnNXVkemsxaA==" target="_blank" rel="noopener noreferrer" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
               Instagram
+            </a>
+            <span className="text-primary-foreground/10">|</span>
+            <a href="https://maps.google.com/?q=La+Table+Raffinée+Casablanca+Maroc" target="_blank" rel="noopener noreferrer" className="font-body text-xs tracking-[0.15em] text-primary-foreground/30 transition-colors hover:text-accent">
+              Google Maps
             </a>
           </div>
           <p className="mt-8 font-body text-[10px] tracking-wide text-primary-foreground/20">
