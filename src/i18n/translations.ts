@@ -276,19 +276,19 @@ export const translations = {
     title2: { fr: "références", en: "references", ar: "مرموقة" },
     items: {
       fr: [
-        { name: "Isabelle & Thomas D.", event: "Mariage — Château de Versailles", quote: "La Table Raffinée a transformé notre mariage en un rêve éveillé. Chaque bouchée était une œuvre d'art, chaque service d'une élégance rare. Nos invités en parlent encore." },
-        { name: "Famille Leroy", event: "Baptême — Villa Borghese", quote: "Une délicatesse absolue, tant dans les saveurs que dans l'attention portée aux détails. Le buffet était somptueux et les pâtisseries ont enchanté petits et grands." },
-        { name: "Groupe Hermès", event: "Gala annuel — Palais de Tokyo", quote: "Un partenaire d'exception pour nos événements les plus prestigieux. Le professionnalisme et la créativité culinaire sont tout simplement incomparables." },
+        { name: "Salma & Youssef B.", event: "Mariage — Riad à Casablanca", quote: "La Table Raffinée a transformé notre mariage en un rêve éveillé. Chaque bouchée était une œuvre d'art, chaque service d'une élégance rare. Nos invités en parlent encore." },
+        { name: "Famille Bennani", event: "Baptême — Villa Anfa", quote: "Une délicatesse absolue, tant dans les saveurs que dans l'attention portée aux détails. Le buffet était somptueux et les pâtisseries ont enchanté petits et grands." },
+        { name: "Groupe Saham", event: "Gala annuel — Hyatt Regency Casablanca", quote: "Un partenaire d'exception pour nos événements les plus prestigieux. Le professionnalisme et la créativité culinaire sont tout simplement incomparables." },
       ],
       en: [
-        { name: "Isabelle & Thomas D.", event: "Wedding — Château de Versailles", quote: "La Table Raffinée transformed our wedding into a waking dream. Every bite was a work of art, every course of rare elegance. Our guests still talk about it." },
-        { name: "The Leroy Family", event: "Christening — Villa Borghese", quote: "Absolute delicacy, both in flavors and attention to detail. The buffet was sumptuous and the pastries delighted young and old alike." },
-        { name: "Hermès Group", event: "Annual Gala — Palais de Tokyo", quote: "An exceptional partner for our most prestigious events. The professionalism and culinary creativity are simply unmatched." },
+        { name: "Salma & Youssef B.", event: "Wedding — Riad in Casablanca", quote: "La Table Raffinée transformed our wedding into a waking dream. Every bite was a work of art, every course of rare elegance. Our guests still talk about it." },
+        { name: "The Bennani Family", event: "Christening — Villa Anfa", quote: "Absolute delicacy, both in flavors and attention to detail. The buffet was sumptuous and the pastries delighted young and old alike." },
+        { name: "Saham Group", event: "Annual Gala — Hyatt Regency Casablanca", quote: "An exceptional partner for our most prestigious events. The professionalism and culinary creativity are simply unmatched." },
       ],
       ar: [
-        { name: "إيزابيل وتوماس د.", event: "زفاف — قصر فرساي", quote: "حوّلت La Table Raffinée حفل زفافنا إلى حلم يقظة. كل لقمة كانت عملاً فنياً، وكل خدمة بأناقة نادرة. ضيوفنا ما زالوا يتحدثون عنها." },
-        { name: "عائلة لوروا", event: "تعميد — فيلا بورغيزي", quote: "رقة مطلقة، سواء في النكهات أو في الاهتمام بالتفاصيل. كان البوفيه فاخراً والمعجنات أسعدت الصغار والكبار." },
-        { name: "مجموعة هيرميس", event: "حفل سنوي — قصر طوكيو", quote: "شريك استثنائي لأرقى فعالياتنا. الاحترافية والإبداع في الطهي لا مثيل لهما ببساطة." },
+        { name: "سلمى ويوسف ب.", event: "زفاف — رياض في الدار البيضاء", quote: "حوّلت La Table Raffinée حفل زفافنا إلى حلم يقظة. كل لقمة كانت عملاً فنياً، وكل خدمة بأناقة نادرة. ضيوفنا ما زالوا يتحدثون عنها." },
+        { name: "عائلة بناني", event: "تعميد — فيلا أنفا", quote: "رقة مطلقة، سواء في النكهات أو في الاهتمام بالتفاصيل. كان البوفيه فاخراً والمعجنات أسعدت الصغار والكبار." },
+        { name: "مجموعة سهام", event: "حفل سنوي — حياة ريجنسي الدار البيضاء", quote: "شريك استثنائي لأرقى فعالياتنا. الاحترافية والإبداع في الطهي لا مثيل لهما ببساطة." },
       ],
     },
   },
