@@ -22,14 +22,18 @@ const FooterSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      // Pour Vercel, nous utilisons Formspree (remplacez 'votre_id' par votre ID Formspree)
-      const formspreeUrl = "https://formspree.io/f/mykbvdpa"; // Votre ID Formspree réel
+      const formspreeUrl = "https://formspree.io/f/mykbvdpa";
       
       const response = await fetch(formspreeUrl, {
         method: "POST",
-        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json" 
+        },
         body: JSON.stringify(formData),
       });
+
+      const result = await response.json();
 
       if (response.ok) {
         toast.success(t.successMessage[language], {
@@ -38,10 +42,12 @@ const FooterSection = () => {
         });
         setFormData({ name: "", phone: "", email: "", event: "", message: "" });
       } else {
-        toast.error("Désolé, une erreur technique est survenue.");
+        console.error("Formspree Error:", result);
+        toast.error("Erreur technique : " + (result.errors?.[0]?.message || "Veuillez réessayer plus tard."));
       }
     } catch (error) {
-      toast.error("Veuillez vérifier votre connexion internet.");
+      console.error("Fetch Error:", error);
+      toast.error("Veuillez vérifier votre connexion internet ou réessayez.");
     } finally {
       setIsSubmitting(false);
     }
