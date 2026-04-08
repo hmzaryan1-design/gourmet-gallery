@@ -77,7 +77,13 @@ const FooterSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.3 }}
           onSubmit={handleSubmit}
+          name="contact"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
           className="mx-auto max-w-xl space-y-6">
+
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <input
