@@ -23,7 +23,7 @@ const FooterSection = () => {
     setIsSubmitting(true);
     try {
       // Pour Vercel, nous utilisons Formspree (remplacez 'votre_id' par votre ID Formspree)
-      const formspreeUrl = "https://formspree.io/f/xvgzlowy"; // Exemple ou placeholder
+      const formspreeUrl = "https://formspree.io/f/mykbvdpa"; // Votre ID Formspree réel
       
       const response = await fetch(formspreeUrl, {
         method: "POST",
