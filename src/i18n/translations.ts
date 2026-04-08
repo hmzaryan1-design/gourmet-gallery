@@ -129,7 +129,7 @@ export const translations = {
         {
           title: "Plateau Artistique",
           subtitle: "L'âme musicale de votre soirée.",
-          description: "Orchestres, DJ, artistes live, groupes de musique — nous composons le plateau artistique qui donnera à votre événement une atmosphère unique et vibrante.",
+          description: "Orchestres, DJ, artistes ou groupes de musique : nous composons le plateau artistique idéal, soutenu par une sonorisation de pointe et des écrans géants haute définition, pour donner à votre événement une atmosphère unique et vibrante.",
         },
       ],
       en: [
