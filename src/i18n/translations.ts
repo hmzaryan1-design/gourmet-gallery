@@ -104,7 +104,7 @@ export const translations = {
         {
           title: "Décoration & Scénographie",
           subtitle: "L'art de créer des ambiances inoubliables.",
-          description: "Décors floraux, mise en lumière, scénographies thématiques — nous concevons des univers visuels sur-mesure qui subliment chaque instant de votre événement.",
+          description: "Décoration florale, mise en lumière, scénographies thématiques — nous concevons des univers visuels sur-mesure qui subliment chaque instant de votre événement.",
         },
         {
           title: "Organisation & Coordination",
@@ -272,8 +272,8 @@ export const translations = {
   // Testimonials
   testimonials: {
     label: { fr: "TÉMOIGNAGES", en: "TESTIMONIALS", ar: "شهادات" },
-    title1: { fr: "Prestigieuses", en: "Prestigious", ar: "مراجع" },
-    title2: { fr: "références", en: "references", ar: "مرموقة" },
+    title1: { fr: "Nos références", en: "Our references", ar: "مراجعنا" },
+    title2: { fr: "& témoignages", en: "& testimonials", ar: "وشهادات" },
     items: {
       fr: [
         { name: "Salma & Youssef B.", event: "Mariage — Riad à Casablanca", quote: "La Table Raffinée a transformé notre mariage en un rêve éveillé. Chaque bouchée était une œuvre d'art, chaque service d'une élégance rare. Nos invités en parlent encore." },
