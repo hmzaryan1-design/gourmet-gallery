@@ -22,15 +22,13 @@ const FooterSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const dataForm = {
-        "form-name": "contact",
-        ...formData,
-      };
+      // Pour Vercel, nous utilisons Formspree (remplacez 'votre_id' par votre ID Formspree)
+      const formspreeUrl = "https://formspree.io/f/xvgzlowy"; // Exemple ou placeholder
       
-      const response = await fetch("/", {
+      const response = await fetch(formspreeUrl, {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(dataForm as any).toString(),
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify(formData),
       });
 
       if (response.ok) {
