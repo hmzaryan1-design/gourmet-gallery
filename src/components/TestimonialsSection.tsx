@@ -3,12 +3,14 @@ import { useRef } from "react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { translations } from "@/i18n/translations";
 import weddingImg from "@/assets/wedding-reception.jpg";
+import dekraImg from "@/assets/dekra-event.png";
 import baptismImg from "@/assets/baptism-event.jpg";
 import corporateImg from "@/assets/corporate-gala.jpg";
 
 // Artistic blurred event photos tied to each testimonial
 const eventImages = [
   { image: weddingImg, alt: "Événement de mariage" },
+  { image: dekraImg, alt: "Centenaire DEKRA" },
   { image: baptismImg, alt: "Événement privé" },
   { image: corporateImg, alt: "Gala d'entreprise" },
 ];
