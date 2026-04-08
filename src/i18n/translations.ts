@@ -299,7 +299,7 @@ export const translations = {
     title1: { fr: "Demande de", en: "Request a", ar: "طلب" },
     title2: { fr: "consultation privée", en: "private consultation", ar: "استشارة خاصة" },
     description: {
-      fr: "Partagez-nous votre vision. Notre équipe vous recontacte sous 24 heures pour créer ensemble un événement à votre image.",
+      fr: "Partagez avec nous vos besoins. Notre équipe vous recontacte sous 24 heures pour créer ensemble un événement à votre image.",
       en: "Share your vision with us. Our team will contact you within 24 hours to create an event that reflects you.",
       ar: "شاركونا رؤيتكم. سيتواصل فريقنا معكم خلال 24 ساعة لنصنع معاً حدثاً يعكس شخصيتكم.",
     },
