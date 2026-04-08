@@ -99,7 +99,7 @@ export const translations = {
         {
           title: "Galas & Corporate",
           subtitle: "L'excellence au service de votre image.",
-          description: "Dîners de gala, lancements de produits, séminaires prestigieux. Notre expertise transforme vos événements d'entreprise en expériences mémorables.",
+          description: "Notre expertise transforme vos événements d'entreprise en expériences mémorables : dîners de gala, lancements de produits, séminaires ou formations d'équipe.",
         },
         {
           title: "Décoration & Scénographie",
