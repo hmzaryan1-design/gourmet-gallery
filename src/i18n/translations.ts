@@ -104,7 +104,7 @@ export const translations = {
         {
           title: "Décoration & Scénographie",
           subtitle: "L'art de créer des ambiances inoubliables.",
-          description: "Décors floraux, mise en lumière, scénographies thématiques — nous concevons des univers visuels sur-mesure qui subliment chaque instant de votre événement.",
+          description: "Décoration florale, mise en lumière, scénographies thématiques — nous concevons des univers visuels sur-mesure qui subliment chaque instant de votre événement.",
         },
         {
           title: "Organisation & Coordination",
